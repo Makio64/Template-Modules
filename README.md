@@ -1,7 +1,7 @@
 # [Template-Modules by Makio64](https://github.com/Makio64/Template-Modules)
 
 This template is a boilerplate for frontend dev using gulp with coffee/stylus/jade to create modern one-page app witch load modules asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
-If you are looking for a more simple architecture but using gulp & coffee/stylus/jade, you can check my template [here](https://github.com/Makio64/Template).
+If you are looking for a more simple architecture for you experiments have a look at [Template](https://github.com/Makio64/Template).
 
 ### Getting started 
 
