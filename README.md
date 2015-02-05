@@ -45,7 +45,7 @@ gulp dist
 - optimize your final file
 ### Architecture 
 
-### Architectures
+### Files architectures
 - src : source files coffee/stylus/jade
 - build : builded files from source
 - build/index.html : page for testing the main app
