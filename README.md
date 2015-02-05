@@ -56,24 +56,26 @@ gulp dist
 - gulp : command gulp
 
 ### FAQ
-- How to stop the server? crtl+c on the terminal
+- How to stop the server? crtl+c in the terminal
 - How to change the image compression? edit gulp/optimize.js
 - How to change the port of the server? edit gulp/browser-sync.js
-- Why no bower/napa? bower & napa are great but on big lib(three/pixi) they load too much useless files.
+- Why no bower/napa? They are great but on big lib(three/pixi) they load too much useless files, also not push the current lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
 
 ### This template use
+
+#####tools
 - Gulp | http://gulpjs.com/
 - Webpack | http://webpack.github.io/
 - Stylus | http://learnboost.github.io/stylus/
 - CoffeeScript | http://coffeescript.org/
 - Jade | http://jade-lang.com/
 
-- Signals | https://github.com/millermedeiros/js-signals
-
+#####librairies js
+- Signals.js | https://github.com/millermedeiros/js-signals
 - Three.js | http://threejs.org/docs/
 - Pixi.js | http://www.pixijs.com/
 - GSAP.js | http://greensock.com/gsap
-- dat.gui.js | https://github.com/dataarts/dat.gui
+- dat.GUI.js | https://github.com/dataarts/dat.gui
 
 ##Versions
 1.0:
