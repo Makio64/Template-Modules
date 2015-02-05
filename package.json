@@ -1,0 +1,61 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Makio64/Template",
+  "license": "MIT",
+  "authors": [
+    "david.ronai <david.ronai@gmail.com>"
+  ],
+  "keywords": [
+    "boilerplate",
+    "starter",
+    "gulp",
+    "stylus",
+    "jade",
+    "coffee",
+    "template",
+    "webpack"
+  ],
+  "private": true,
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "dependencies": {
+    "browser-sync": "*",
+    "coffee-loader": "*",
+    "coffee-script": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-copy": "*",
+    "gulp-cssmin": "*",
+    "gulp-data": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-rev": "*",
+    "gulp-rev-collector": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-stylus": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "gulp-webpack": "*",
+    "jade": "*",
+    "nib": "*",
+    "run-sequence": "*",
+    "signals": "*",
+    "stylus": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "yargs": "*"
+  }
+}
