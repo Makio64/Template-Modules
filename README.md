@@ -34,9 +34,18 @@ Build the final optimized files ( compile/imagemin/cssmin/jsmin/versionning/etc.
 gulp dist
 ```
 
+### Features
+- compile your stylus / jade / coffeescript automatically
+- create sourcemap for coffeescript & stylus
+- create a local server with livereload ( reload your browser when you change a file )
+- create bundle to load the module asynchronimously
+- create page html to test each module individually
+- notification via growl
+- optimized .httaccess / manifest / robot for your webapp
+- optimize your final file
 ### Architecture 
 
-####Folders & files
+####Architectures
 ```shell
 ./src : source files coffee/stylus/jade
 ./build : builded files from source
@@ -47,32 +56,6 @@ gulp dist
 ./static/vendors/ : your lib for the project
 ./gulp : command gulp
 ```
-
-####Coffee
-```shell
--Main.coffee : entry point of the app
---Core : important class for any project
----Stage3d : helper for three.js
----Stage2d : helper for pixi.js
----ShaderLoader : helper to manage glsl files & chunks
----ShageRenderer : manage the update/resize with signal 
----scenes
-----SceneTraveler : Simple system to handle transition between scene
-----Scene : Basic scene
---Modules : your modules
----xxx/Main : your entry point for the module xxx
-```
-
-### What the template do exactly for you
-- create a local server with livereload ( reload your browser when you change a file )
-- compile your stylus / jade / coffeescript automatically
-- create bundle to load the module asynchronimously
-- create page to test each module individually
-- create sourcemap for coffeescript & stylus
-- provide a structure for your coffee/stylus development
-- notify the compilation success/error via growl
-- include optimized .httaccess / manifest / robot for your webapp
-- include nib for stylus
 
 ### FAQ
 - How to stop the server? crtl+c on the terminal
