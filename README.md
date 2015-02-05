@@ -1,7 +1,9 @@
 # [Template-Modules by Makio64](https://github.com/Makio64/Template-Modules)
+Boilerplate : gulp + webpack + coffee/stylus/jade + async Loading
+---------
 
-This template is a boilerplate using gulp with coffee/stylus/jade to create one page app loading modules(pages) asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time. It doesnt use bower or napa cause download all the examples/source.. on each project isn't a good practice, especially true on Three.js or Pixi.js. 
-If you are looking for a more simple architecture but using coffee/stylus/jade/gulp, check my template [here](https://github.com/Makio64/Template).
+This template is a boilerplate using gulp with coffee/stylus/jade to create one page app loading modules(pages) asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
+If you are looking for a more simple architecture but using gulp & coffee/stylus/jade, you can check my template [here](https://github.com/Makio64/Template).
 
 ### Getting started 
 
@@ -66,8 +68,10 @@ gulp dist
 ### What the template do exactly for you
 - create a local server with livereload ( reload your browser when you change a file )
 - compile your stylus / jade / coffeescript automatically
-- give a nice, light and basic structure for your coffee/stylus development
-- sourcemap for stylus & coffeescript for easy debugging
+- create bundle to load the module asynchronimously
+- create page to test each module individually
+- create sourcemap for coffeescript & stylus
+- provide a structure for your coffee/stylus development
 - notify the compilation success/error via growl
 - include optimized .httaccess / manifest / robot for your webapp
 - include nib for stylus
