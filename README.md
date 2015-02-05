@@ -1,8 +1,6 @@
 # [Template-Modules by Makio64](https://github.com/Makio64/Template-Modules)
-Boilerplate : gulp + webpack + coffee/stylus/jade + async Loading
----------
 
-This template is a boilerplate using gulp with coffee/stylus/jade to create one page app loading modules(pages) asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
+This template is a boilerplate using gulp with coffee/stylus/jade to create modern one-page app witch load modules asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
 If you are looking for a more simple architecture but using gulp & coffee/stylus/jade, you can check my template [here](https://github.com/Makio64/Template).
 
 ### Getting started 
@@ -83,7 +81,7 @@ gulp dist
 
 ### This template use
 - Gulp | http://gulpjs.com/
-- Webpack | http://bower.io/
+- Webpack | http://webpack.github.io/
 - Stylus | http://learnboost.github.io/stylus/
 - CoffeeScript | http://coffeescript.org/
 - Jade | http://jade-lang.com/
