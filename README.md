@@ -1,6 +1,6 @@
 # [Template-Modules by Makio64](https://github.com/Makio64/Template-Modules)
 
-This template is a boilerplate using gulp with coffee/stylus/jade to create modern one-page app witch load modules asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
+This template is a boilerplate for frontend dev using gulp with coffee/stylus/jade to create modern one-page app witch load modules asynchronimously. Each modules is optimized and the common parts (chunks) are load only one time, thanks to webpack. 
 If you are looking for a more simple architecture but using gulp & coffee/stylus/jade, you can check my template [here](https://github.com/Makio64/Template).
 
 ### Getting started 
@@ -74,10 +74,11 @@ gulp dist
 - include optimized .httaccess / manifest / robot for your webapp
 - include nib for stylus
 
-### How to
-- Stop the server : crtl+c on the terminal
-- Change the image compression : gulp/optimize.js
-- Change the port of the server : gulp/browser-sync.js
+### FAQ
+- How to stop the server? crtl+c on the terminal
+- How to change the image compression? edit gulp/optimize.js
+- How to change the port of the server? edit gulp/browser-sync.js
+- Why no bower/napa? bower & napa are great but on big lib(three/pixi) they load too much useless files.
 
 ### This template use
 - Gulp | http://gulpjs.com/
