@@ -21,5 +21,5 @@ gulp.task( 'default', function(cb) {
 });
 
 gulp.task( 'dist', function(cb) { 
-	runSequence(['cleanDist','stylus', 'jade', 'webpack-build'], ['copyToDist','imagemin','cssmin'],['rev'], cb) 
+	runSequence(['cleanDist','stylus', 'jade', 'webpack-build'], ['copyToDist','imagemin','cssmin'],['rev'],['cleanRev'], cb) 
 });

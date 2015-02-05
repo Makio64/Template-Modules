@@ -16,12 +16,11 @@
     "template",
     "webpack"
   ],
-  "private": true,
   "engines": {
     "node": "*",
     "npm": "*"
   },
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "*",
     "coffee-loader": "*",
     "coffee-script": "*",
