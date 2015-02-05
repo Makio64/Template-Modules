@@ -41,7 +41,7 @@ gulp dist
 - compile your stylus / jade / coffeescript automatically
 - create sourcemap for coffeescript & stylus
 - create a local server with livereload ( reload your browser when you change a file )
-- create bundle to load the module asynchronimously
+- create bundle to load the module asynchronously
 - create page html to test each module individually
 - notification via growl
 - optimized .httaccess / manifest / robot for your webapp
