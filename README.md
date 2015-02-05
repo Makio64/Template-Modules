@@ -59,7 +59,7 @@ gulp dist
 - How to stop the server? crtl+c in the terminal
 - How to change the image compression? edit gulp/optimize.js
 - How to change the port of the server? edit gulp/browser-sync.js
-- Why no bower/napa? They are great but on big lib(three/pixi) they load too much useless files, also not push the current lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
+- Why no bower/napa? They are great but on big lib(three/pixi) they install too much stuffs. Also not push the lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
 
 ### This template use
 
