@@ -45,17 +45,15 @@ gulp dist
 - optimize your final file
 ### Architecture 
 
-####Architectures
-```shell
-./src : source files coffee/stylus/jade
-./build : builded files from source
-./build/index.html : page for testing the main app
-./build/module_001.html : page for testing the module '001'
-./dist : final files compressed & optimized 
-./static : static files not builded ( .htaccess, image, etc..)
-./static/vendors/ : your lib for the project
-./gulp : command gulp
-```
+### Architectures
+- src : source files coffee/stylus/jade
+- build : builded files from source
+- build/index.html : page for testing the main app
+- build/module_001.html : page for testing the module '001'
+- dist : final files compressed & optimized 
+- static : static files not builded ( .htaccess, image, etc..)
+- static/vendors/ : your lib for the project
+- gulp : command gulp
 
 ### FAQ
 - How to stop the server? crtl+c on the terminal
@@ -70,10 +68,8 @@ gulp dist
 - CoffeeScript | http://coffeescript.org/
 - Jade | http://jade-lang.com/
 
-### Lib by default in npm ( recommended way when possible )
 - Signals | https://github.com/millermedeiros/js-signals
 
-### Lib by default in vendors
 - Three.js | http://threejs.org/docs/
 - Pixi.js | http://www.pixijs.com/
 - GSAP.js | http://greensock.com/gsap
