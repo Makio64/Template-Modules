@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 
 var path        = require('./config').path;
+var port        = require('./config').port;
 
 var webpack     = require("webpack");
 var webpackGulp = require('gulp-webpack');
@@ -48,7 +49,7 @@ function createWebpack(build,watch){
 				watch: watch,
 				watchDelay: 0,
 				devServer:{
-					port:9000
+					port:port
 				},
 				module: {
 					loaders: [
