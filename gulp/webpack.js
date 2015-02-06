@@ -48,7 +48,7 @@ function createWebpack(build,watch){
 				watch: watch,
 				watchDelay: 0,
 				devServer:{
-					port:1000
+					port:9000
 				},
 				module: {
 					loaders: [
@@ -56,13 +56,13 @@ function createWebpack(build,watch){
 					]
 				},
 				output: {
-					path: __dirname+'/../build/js/',
+					path: __dirname+'/../'+path.build+'js/',
 					filename: output,
 					publicPath:'./js/'
 				},
 				resolve: {
 					extensions:['','.coffee'],
-					root:__dirname+'/../src/coffee/'
+					root:__dirname+'/../'+path.coffee
 				},
 				plugins:plugins
 			}))
