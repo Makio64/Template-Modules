@@ -26,7 +26,7 @@ gulp
 gulp --module 001
 ```
 
-Compile the file only :
+Compile only :
 ```shell
 gulp compile //compile the main app
 gulp compile --module 001 //compile the module 001
@@ -38,15 +38,13 @@ gulp dist
 ```
 
 ### Features
-- compile your stylus / jade / coffeescript automatically
-- create sourcemap for coffeescript & stylus
-- create a local server with livereload ( reload your browser when you change a file )
-- create bundle to load the module asynchronously
-- create page html to test each module individually
-- notification via growl
-- optimized .httaccess / manifest / robot for your webapp
-- optimize your final file
-### Architecture 
+- Compile your stylus / jade / coffeescript automatically
+- Sourcemap for coffeescript & stylus
+- Local server with livereload ( reload your browser when you change a file )
+- Create bundle to load the module asynchronously
+- Create page html to test each module individually
+- Notification via growl
+- Optimize your final file
 
 ### Files architectures
 - src : source files coffee/stylus/jade
@@ -61,7 +59,7 @@ gulp dist
 ### FAQ
 - How to stop the server? crtl+c in the terminal
 - How to change the image compression? edit gulp/optimize.js
-- How to change the port of the server? edit gulp/browser-sync.js
+- How to change the port of the server? edit gulp/config.js
 - Why no bower/napa? They are great but on big lib(three/pixi) they install too much stuffs. Also not push the lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
 
 ### This template use

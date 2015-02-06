@@ -5,6 +5,7 @@ var static 	= './static/';
 
 module.exports = 
 {
+	port : 9000,
 	path : 
 	{
 		build : build,
