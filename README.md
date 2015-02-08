@@ -10,21 +10,12 @@ If you are looking for a very simple template have a look at [Template](https://
 
 - Install nodejs if you don't have it : http://nodejs.org/
 - copy or clone the template somewhere
-- Then open the terminal and push the following commands :
-```shell
-cd yourfolder // move to yourfolder
-rm -rf .git && git init //remove the previous git files and create a new
-npm install //if you have an erorr try with sudo
-gulp //start the main app ( see below )
-```
-
-### Task(Gulp)
-
-Test the Main app or a module ( compile / server livereload / watch for change ) :
-```shell
-gulp
-gulp --module 001
-```
+- Then  
+	```shell
+	gulp
+	//or
+	gulp --module 001
+	```
 
 Compile only :
 ```shell
