@@ -12,7 +12,7 @@ If you are looking for a very simple template have a look at [Template](https://
 - copy or clone the template somewhere
 - Then type some command above ( gulp by default :) )
 
-```
+```javascript
 //Compile, start a livereload server, watch for change
 gulp 
 // same but for the module 001
@@ -28,7 +28,7 @@ gulp dist
 ```
 
 ### Features
-- Fast compilation for your stylus / jade / coffeescript
+- Fast compilation for your stylus / jade / coffeescript / glsl
 - Sourcemap for coffeescript & stylus
 - Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks 
 - Server with livereload ( reload your browser when you change a file )
