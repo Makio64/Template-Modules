@@ -39,6 +39,7 @@ gulp dist
 
 ### Features
 - Compile your stylus / jade / coffeescript automatically
+- Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks 
 - Sourcemap for coffeescript & stylus
 - Local server with livereload ( reload your browser when you change a file )
 - Create bundle to load the module asynchronously
@@ -62,21 +63,14 @@ gulp dist
 - How to change the port of the server? edit gulp/config.js
 - Why no bower/napa? They are great but on big lib(three/pixi) they install too much stuffs. Also not push the lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
 
-### This template use
+### See also
 
-#####tools
+- shader-loader | https://github.com/Makio64/shader-loader
 - Gulp | http://gulpjs.com/
 - Webpack | http://webpack.github.io/
 - Stylus | http://learnboost.github.io/stylus/
 - CoffeeScript | http://coffeescript.org/
 - Jade | http://jade-lang.com/
-
-#####librairies js
-- Signals.js | https://github.com/millermedeiros/js-signals
-- Three.js | http://threejs.org/docs/
-- Pixi.js | http://www.pixijs.com/
-- GSAP.js | http://greensock.com/gsap
-- dat.GUI.js | https://github.com/dataarts/dat.gui
 
 ##Versions
 1.0:
