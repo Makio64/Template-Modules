@@ -14,6 +14,7 @@ module.exports =
 		static : static,
 		jade : src+'jade/',
 		coffee : src+'coffee/',
-		stylus : src+'stylus/'
+		stylus : src+'stylus/',
+		glsl : src+'glsl/'
 	}
 };

@@ -41,6 +41,7 @@
   "devDependencies": {
     "browser-sync": "*",
     "coffee-loader": "*",
+    "shader-loader": "*",
     "coffee-script": "*",
     "del": "*",
     "gulp": "*",

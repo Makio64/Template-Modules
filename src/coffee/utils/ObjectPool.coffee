@@ -16,14 +16,16 @@ class ObjectPool
 	checkOut: () ->
 
 		if @list.length == 0
-			i = @create()
+			return @create()
 		else
-			i = @list.pop()
+			return @list.pop()
 
 
 	checkIn: (item) ->
 
 		if @list.length < @maxSize
 			@list.push item
+			
+		return
 
 module.exports = ObjectPool

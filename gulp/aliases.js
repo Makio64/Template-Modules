@@ -13,7 +13,7 @@ gulp.task( 'compile', function(cb){
 });
 
 gulp.task( 'watch', function(cb){
-	runSequence([ 'watchStylus','watchJade','watchCoffee' ], cb)
+	runSequence([ 'watchStylus','watchJade','watchCoffee','watchGlsl' ], cb)
 });
 
 gulp.task( 'default', function(cb) {

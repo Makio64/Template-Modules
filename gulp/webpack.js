@@ -52,18 +52,30 @@ function createWebpack(build,watch){
 					port:port
 				},
 				module: {
+					preLoaders:[
+						
+					],
 					loaders: [
 						{ test: /\.coffee$/, loader: 'coffee' },
+						{ test: /\.glsl$/, loader: 'shader' },
+					],
+					postLoaders:[
 					]
 				},
+				glsl: {
+					chunkPath: "chunks"
+			    },
 				output: {
 					path: __dirname+'/../'+path.build+'js/',
 					filename: output,
 					publicPath:'./js/'
 				},
 				resolve: {
-					extensions:['','.coffee'],
-					root:__dirname+'/../'+path.coffee
+					extensions:['','.coffee','.glsl'],
+					root:[
+						__dirname+'/../'+path.coffee,
+						__dirname+'/../'+path.glsl
+					]
 				},
 				plugins:plugins
 			}))
