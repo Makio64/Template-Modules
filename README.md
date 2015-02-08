@@ -10,29 +10,28 @@ If you are looking for a very simple template have a look at [Template](https://
 
 - Install nodejs if you don't have it : http://nodejs.org/
 - copy or clone the template somewhere
-- Then  
-	```shell
-	gulp
-	//or
-	gulp --module 001
-	```
+- Then type some command above ( gulp by default :) )
 
-Compile only :
-```shell
-gulp compile //compile the main app
-gulp compile --module 001 //compile the module 001
 ```
+//Compile, start a livereload server, watch for change
+gulp 
+// same but for the module 001
+gulp --module 001 
 
-Build the final optimized files ( compile/imagemin/cssmin/jsmin/versionning/etc.. ) :
-```shell
+//Compilation the main app only
+gulp compile
+// same but for the module 001
+gulp compile --module 001 
+
+//Build the final optimized files ( compile/imagemin/cssmin/jsmin/versionning/etc.. )
 gulp dist
 ```
 
 ### Features
-- Compile your stylus / jade / coffeescript automatically
-- Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks 
+- Fast compilation for your stylus / jade / coffeescript
 - Sourcemap for coffeescript & stylus
-- Local server with livereload ( reload your browser when you change a file )
+- Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks 
+- Server with livereload ( reload your browser when you change a file )
 - Create bundle to load the module asynchronously
 - Create page html to test each module individually
 - Notification via growl
