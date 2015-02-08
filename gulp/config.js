@@ -5,6 +5,7 @@ var static 	= './static/';
 
 module.exports = 
 {
+	imageOptimizationLevel : 2,
 	port : 9000,
 	path : 
 	{
@@ -12,6 +13,7 @@ module.exports =
 		src : src ,
 		dist : dist,
 		static : static,
+		img: 'img/',
 		jade : src+'jade/',
 		coffee : src+'coffee/',
 		stylus : src+'stylus/',

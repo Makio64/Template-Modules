@@ -38,19 +38,22 @@ gulp dist
 - Optimize your final file
 
 ### Files architectures
-- src : source files coffee/stylus/jade
-- build : builded files from source
-- build/index.html : page for testing the main app
-- build/module_001.html : page for testing the module '001'
-- dist : final files compressed & optimized 
-- static : static files not builded ( .htaccess, image, etc..)
-- static/vendors/ : your lib for the project
-- gulp : command gulp
+```javascript
+src // source files coffee/stylus/jade
+build // builded files from source
+build/index.html // page for testing the main app
+build/module_001.html // page for testing the module '001'
+dist // final files compressed & optimized 
+static // static files not builded ( .htaccess, image, etc..)
+static/vendors/ // your lib for the project
+gulp // command gulp
+```
 
 ### FAQ
-- How to stop the server? crtl+c in the terminal
-- How to change the image compression? edit gulp/optimize.js
+- How to change the folders architecture? edit gulp/config.js
+- How to change the image compression? edit gulp/config.js
 - How to change the port of the server? edit gulp/config.js
+- How to stop the server? crtl+c in the terminal
 - Why no bower/napa? They are great but on big lib(three/pixi) they install too much stuffs. Also not push the lib can be bad if you want to edit them ( like the depth-sorter in threejs ).
 
 ### See also

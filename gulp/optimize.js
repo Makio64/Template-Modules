@@ -3,7 +3,9 @@
  */
 
 var gulp 		= require('gulp');
-var path		= require('./config').path;
+var path 		= require('./config').path;
+
+var imageOptimizationLevel = require('./config').imageOptimizationLevel;
 
 var imagemin	= require('gulp-imagemin');
 var cssmin 		= require('gulp-cssmin');
@@ -29,11 +31,11 @@ gulp.task( 'copyToDist', function() {
 })
 
 gulp.task('imagemin', function() {
-  return gulp.src(path.static+'img/**/*.*')
+  return gulp.src(path.static+path.img+'**/*.*')
     .pipe(imagemin({
-		optimizationLevel: 2
+		optimizationLevel: imageOptimizationLevel
     }))
-    .pipe(gulp.dest(path.dist+'img/'))
+    .pipe(gulp.dest(path.dist+path.img))
 });
 
  
