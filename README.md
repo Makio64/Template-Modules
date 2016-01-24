@@ -1,12 +1,14 @@
+# [Deprecated please use Starter](https://github.com/Makio64/starter)
+
 # [Template-Modules](https://github.com/Makio64/Template-Modules)
 
-Boilerplate using modern frontend tool to accelerate the dev ( gulp / coffee / stylus / jade / webpack / livereload ). It allow you to test the whole stuff or each module separetly base on async loading of optimized bundle. 
+Boilerplate using modern frontend tool to accelerate the dev ( gulp / coffee / stylus / jade / webpack / livereload ). It allow you to test the whole stuff or each module separetly base on async loading of optimized bundle.
 
-To resume it make files light, loading fast & test easy :) 
+To resume it make files light, loading fast & test easy :)
 
 If you are looking for a very simple template have a look at [Template](https://github.com/Makio64/Template).
 
-### Getting started 
+### Getting started
 
 - Install nodejs if you don't have it : http://nodejs.org/
 - copy or clone the template somewhere
@@ -14,14 +16,14 @@ If you are looking for a very simple template have a look at [Template](https://
 
 ```javascript
 //Compile, start a livereload server, watch for change
-gulp 
+gulp
 // same but for the module 001
-gulp --module 001 
+gulp --module 001
 
 //Compilation the main app only
 gulp compile
 // same but for the module 001
-gulp compile --module 001 
+gulp compile --module 001
 
 //Build the final optimized files ( compile/imagemin/cssmin/jsmin/versionning/etc.. )
 gulp dist
@@ -30,7 +32,7 @@ gulp dist
 ### Features
 - Fast compilation for your stylus / jade / coffeescript / glsl
 - Sourcemap for coffeescript & stylus
-- Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks 
+- Use [shader-loader](https://github.com/Makio64/shader-loader) to handle your glsl files + chunks
 - Server with livereload ( reload your browser when you change a file )
 - Create bundle to load the module asynchronously
 - Create page html to test each module individually
@@ -43,7 +45,7 @@ src // source files coffee/stylus/jade
 build // builded files from source
 build/index.html // page for testing the main app
 build/module_001.html // page for testing the module '001'
-dist // final files compressed & optimized 
+dist // final files compressed & optimized
 static // static files not builded ( .htaccess, image, etc..)
 static/vendors/ // your lib for the project
 gulp // command gulp
